@@ -1,0 +1,500 @@
+   96  git log --format=full
+   97  nano mars.txt
+   98  git diff Head mars.txt
+   99  git diff
+  100  git diff Head~1 mars.txt
+  101  git diff Head~2 mars.txt
+  102  git diff Head~0 mars.txt
+  103  git show HEAD~2 mars.txt
+  104  git log
+  105  git log --all
+  106  git diff 96d2ca3af
+  107  cat mars.txt
+  108  git status
+  109  cat mars.txt
+  110  nano mars.txt
+  111  cat mars
+  112  cat mars.txt
+  113  git log
+  114  git add mars.txt
+  115  git commit mars.txt
+  116  git log
+  117  git status
+  118  git commit -m "mars.txt"
+  119  git log
+  120  git commit --help
+  121  git log
+  122  git checkout
+  123  ls
+  124  cat mars.txt
+  125  git status
+  126  git log
+  127  git checkout master
+  128  echo "Venus is beautiful and full of love" > venus.txt
+  129  git add venus.txt
+  130  echo "Venus is too hot to be suitable as a base" >> venus.txt
+  131  cat venus.txt
+  132  git commit -m "Comment on Venus as an unsuitable base"
+  133  git checkout Head venus.txt
+  134  cat venus
+  135  cat venus.txt
+  136  cd Desktop
+  137  ls
+  138  cd planets
+  139  pwd
+  140  ls
+  141  nano mars.txt
+  142  ls
+  143  cat mars.txt
+  144  cd Desktop
+  145  cd Planets
+  146  git status
+  147  cd ~/Desktop
+  148  cd planets
+  149  ls
+  150  ls -a
+  151  git status
+  152  pwd
+  153  ls
+  154  rm advisorsnotes.txt
+  155  rm mars.txt
+  156  rm venus.txt
+  157  ls
+  158  nano mars.txt
+  159  ls
+  160  cat mars.txt
+  161  git status
+  162  pwd
+  163  cd ..
+  164  ls
+  165  rm -r planets
+  166  ls
+  167  mkdir planets
+  168  ls
+  169  cd planets
+  170  ls
+  171  git init
+  172  ls
+  173  git status
+  174  ls =a
+  175  ls -a
+  176  nano mars.txt
+  177  ls
+  178  cat mars.txt
+  179  git status
+  180  git add mars.txt
+  181  git status
+  182  git commit -m "Start notes on Mars as a base"
+  183  git status
+  184  git log
+  185  ls
+  186  nano mars.txt
+  187  cat mars.txt
+  188  git status
+  189  git diff
+  190  git commit -m "Add concerns about effects of Mars' moons on Wolfman"
+  191  git status
+  192  git add mars.txt
+  193  git status
+  194  git commit -m "Add concerns about effects of Mars' moons on Wolfman"
+  195  nano mars.txt
+  196  git diff
+  197  git add mars.txt
+  198  git diff
+  199  git diff --staged
+  200  git commit -m "Discuss concerns about Mars' climate for Mummy"
+  201  git status
+  202  git log
+  203  git log -1
+  204  git log --oneline
+  205  git log --oneline --graph --all --decorate
+  206  mkdir directory
+  207  git status
+  208  git add directory
+  209  git status
+  210  nano mars.txt
+  211  nano Venus.txt
+  212  git add mars.txt Venus.txt
+  213  git status
+  214  git commit -m "Write plans to start a base on Venus"
+  215  cd ..
+  216  mkdir bio
+  217  cd bio
+  218  git init
+  219  nano me.txt
+  220  git add me.txt
+  221  git commit -m "Adding biography file"
+  222  git logo
+  223  git log
+  224  nano me.txt
+  225  git diff me.txt
+  226  git add me.txt
+  227  git status
+  228  git commit -m "Modified my favourite"
+  229  git log
+  230  git diff
+  231  git diff me.txt
+  232  git log --format=full
+  233  nano me.txt
+  234  git diff
+  235  git add me.txt
+  236  git diff
+  237  git diff staged
+  238  git diff --staged
+  239  git commit -m "Update my bio" --author="FriendName <FriendName@hisemail.com>"
+  240  git log --format=full
+  241  whoomi
+  242  data
+  243  date
+  244  whoami
+  245  ls
+  246  ls -F /
+  247  ls /
+  248  ls -F /
+  249  ls Desktop
+  250  cd Desktop
+  251  cd
+  252  ls
+  253  ls Desktop
+  254  cd Desktop
+  255  cd Documents
+  256  pwd
+  257  ls
+  258  ls -F /
+  259  cd mingw64
+  260  cd /mingw64
+  261  ls
+  262  cd lib
+  263  ls
+  264  cd /
+  265  cd Desktop
+  266  cd /Desktop
+  267  ls
+  268  cd ~
+  269  ls
+  270  cd Desktop
+  271  ls 
+  272  ls --help
+  273  man
+  274  man ls
+  275  ls --help
+  276  ls
+  277  cd data-shell
+  278  ls
+  279  ls -a
+  280  cd ..
+  281  ls
+  282  cd data-shell
+  283  ls
+  284  cd ..
+  285  ls
+  286  ls -l -h
+  287  ls -lh
+  288  ls
+  289  cd ..
+  290  ls -F Desktop
+  291  cd Desktop
+  292  cd data-shell
+  293  ls
+  294  cd data
+  295  cd ..
+  296  cd -F Desktop/data-shell
+  297  ls -F Desktop/data-shell
+  298  ls -F ~/Desktop/data-shell
+  299  pwd
+  300  ls
+  301  cd data
+  302  ls
+  303  pwd
+  304  ls -F
+  305  cd data-shell
+  306  ls
+  307  cd ~/Document
+  308  cd ~/Documents
+  309  ls
+  310  cd 录音
+  311  ls
+  312  cd ~
+  313  ls
+  314  cd Desktop
+  315  cd data-shell
+  316  ls -F -a
+  317  cd .
+  318  ls
+  319  ls -a
+  320  ls -FA
+  321  LS -Fa
+  322  cd 
+  323  cd Desktop/data-shell
+  324  ls
+  325  cd data
+  326  ls
+  327  cd ../../Documents
+  328  pwd
+  329  cd ../../../Documents
+  330  ls
+  331  cd ../Desktop/data-shell/data/
+  332  ls
+  333  pwd
+  334  cd /c/Users/Desktop/data-shell
+  335  pwd
+  336  cd /c/Users/gcxin/Desktop/data-shell/data
+  337  cd /c/User/gcxin/Desktop/data-shell
+  338  cd /c/Users/gcxin/Desktop/data-shell
+  339  ls
+  340  cd -
+  341  pwd
+  342  cd molecules
+  343  cd molecules
+  344  cd ../molecules
+  345  ls
+  346  cd -
+  347  cd /
+  348  ls
+  349  cd ~
+  350  ls
+  351  cd Desktop
+  352  cd ~
+  353  pwd
+  354  cd Desktop
+  355  ls
+  356  cd pwd
+  357  ls pwd
+  358  PS1="^"
+  359  ls
+  360   PS1
+  361   PS1=
+  362  LS
+  363  PS1="$"
+  364  PS1="$ "
+  365  echo $PS1
+  366  pwd
+  367  ls
+  368  cd data-shell
+  369  ls
+  370  cd north-pacific-gyre
+  371  ls
+  372  ls 2012-07-03
+  373  PS1="[\d \t \u@\h:\w ] $ "
+  374  ls
+  375  PS1="\w"
+  376  PS1="\u@\h:\w $ "
+  377  cd ..
+  378  ls
+  379  mkdir thesis
+  380  ls
+  381  ls -F thesis
+  382  ls
+  383  cd thesis
+  384  ls
+  385  nano draft.txt
+  386  ls
+  387  nano darft.txt
+  388  nano draft.txt
+  389  cat draft.txt
+  390  touch my_file.txt
+  391  ls
+  392  ls -l
+  393  ls -l
+  394  touch draft.txt
+  395  ls -l
+  396  ls 
+  397  rm my_file.txt
+  398  ls
+  399  ls
+  400  rm thesis
+  401  cd ..
+  402  rm thesis
+  403  rm -r thesis
+  404  ls
+  405  mkdir thesis
+  406  ls
+  407  touch thesis/quotations.txt
+  408  rm -i thesis/quotations.txt
+  409  ls thesis/
+  410  rm -i thesis/quotations.txt
+  411  ls
+  412  ls thesis
+  413  nano thesis/draft.txt
+  414  ls
+  415  ls thesis
+  416  mv thesis/draft.txt thesis/quotes.txt
+  417  ls thesis
+  418  cat quotes.txt
+  419  cat thesis/quotes.txt
+  420  cp thesis/quotes.txt thesis/draft.txt
+  421  ls thesis
+  422  cat thesis draft.txt
+  423  cat thesis/draft.txt
+  424  mv thesis/quotes.txt ./
+  425  ls
+  426  ls quotes.txt
+  427  mv ./quotes.txt thesis/quotes.txt
+  428  ls
+  429  ls thesis
+  430  mv thesis/draft.txt thesis/quotes.txt ./
+  431  ls
+  432  mv ./draft.txt ./quotes.txt thesis/
+  433  ls
+  434  ls thesis
+  435  cp quotes.txt thesis/quotations.txt
+  436  mv thesis/quotes.txt ./quotes.txt
+  437  ls
+  438  ls quotes.txt thesis/quotations.txt
+  439  cd data
+  440  mkdir backup
+  441  ls
+  442  cp amino-acids.txt  animals.txt backup/
+  443  ls
+  444  ls backup/
+  445  ls
+  446  ls pdb
+  447  ls pdb/*.pdb
+  448  ls pdb/l*.pdb
+  449  ls pdb/?l*.pdb
+  450  pwd
+  451  ls ..
+  452  ls
+  453  ls ..
+  454  cd ../molecules
+  455  ls
+  456  ls *t*.pdb
+  457  ls
+  458  ls *ethane.pdb
+  459  ls *t*ane.pdb
+  460  ls *t?ne.pdb
+  461  ls *t??ne.pdb
+  462  cd Desktop
+  463  ls
+  464  sqlite3 survey.db
+  465  ls | grep survey.db
+  466  sqlite3 survey2.db
+  467  ls | grep survey2.db
+  468  ls
+  469  sqlite3 survey.db
+  470  apt install sqlite3
+  471  R
+  472  R --vanilla
+  473  cd Desktop/r-inflammation/
+  474  Rscript hi.R
+  475  ls
+  476  cd Desktop/r-information
+  477  RScript hi.R
+  478  RScript hi.R
+  479  RScript hi.R | head
+  480  R
+  481  RScript printArgs.R
+  482  RScript printArgs.R one two three --hi
+  483  RScript printArgs.R one two three --hi
+  484  RScript analyzescript.R data/inflammation-09.csv infl09.pdf
+  485  RScript analyzescript.R data/inflammation-09.csv infl09.pdf
+  486  head data/inflammation-09.csv | RScript analyzescript.R infl09.pdf
+  487  head data/inflammation-09.csv | RScript analyzescript.R infl09a.pdf
+  488  cd Downloads
+  489  cd sqlite-dll-win64-x64-3250100
+  490  sqlite3
+  491  SQLite
+  492  cd Desktop
+  493  ls | grep survey.db
+  494  sqlite3 survey.db
+  495  cd Desktop
+  496  ls
+  497  sqlite3 survey.db
+  498  sqlite3
+  499  winpty sqlite3
+  500  winpty sqlite3 survey.db
+  501  cd Desktop
+  502  cd planets
+  503  echo "Venus is beautiful and full of love" > Venus.txt
+  504  git add venus.txt
+  505  git commit -m "comment of Vennus"
+  506  cat Venus.txt
+  507  cat mars.txt
+  508  echo "some change" > mars.txt
+  509  cat mars.txt
+  510  git checkout mars.txt
+  511  cat mars.txt
+  512  nano mars.txt
+  513  cat mars.txt
+  514  git add mars.txt
+  515  cat mars.txt
+  516  git checkout mars.txt
+  517  cat mars.txt
+  518  git checkout HEAD mars.txt
+  519  git status
+  520  git diff --staged
+  521  git commit -m "test git checout"
+  522  git log
+  523  git add mars.txt
+  524  git commit -m "git checkout"
+  525  git history.txt
+  526  rm history.txt
+  527  rm shell_his.txt
+  528  git status
+  529  mkdir results
+  530  git status
+  531  touch a.tmp b.tmp results/a.out results/b.out
+  532  git status
+  533  touch c.dat
+  534  mv c.dat c.tmp
+  535  git status
+  536  nano .gitignore
+  537  cat .gitignore
+  538  git status
+  539  nano .gitignore
+  540  git status
+  541  nano .gitignore
+  542  git add .gitignore
+  543  git commit -m "Ignore .tmp files and results directory"
+  544  git status --ignore
+  545  git status --ignored
+  546  git ls-files
+  547  ls
+  548  nano .gitignore
+  549  nano .gitignore
+  550  git request-pull --help
+  551  git checkout HEAD -- .gitignore
+  552  git status
+  553  git remote add origin https://github.com/LukeGXing/planets.git
+  554  git remote -v
+  555  git remote
+  556  unset SSH_ASKPASS
+  557  git_config --help
+  558  git help config
+  559  git remote set-url origin origin git@github.com:LukeGXing/planets.git
+  560  git remote set-url origin origin git@github.com/LukeGXing/planets.git
+  561  git remote set-url origin origin git@github.com/LukeGXing/planets.git
+  562  git push origin master
+  563  unset HTTP_ASKPASS
+  564  git push origin master
+  565  git config --local --show-origin --list
+  566  git pull
+  567  git pull master
+  568  git pull planets master
+  569  git pull LukeGXing/planets master
+  570  git pull origin master
+  571  git balme
+  572  git blame
+  573  git blame mars.txt
+  574  git reset --hard HEAD~1
+  575  cat mars.txt
+  576  git log --oneline
+  577  nano mars.txt
+  578  git commit -m "Local change" mars.txt
+  579  cat mars.txt
+  580  git log --oneline --graph -all --decorate
+  581  git log --oneline --graph --all --decorate
+  582  git pull origin master
+  583  git status
+  584  nano marst.txt
+  585  nano mars.txt
+  586  git add mars.txt
+  587  git status
+  588  git commit
+  589  git commit log
+  590  git log
+  591  git log --oneline --decorate --graph --all
+  592  cat mars.txt
+  593  history
+  594  git hitory >> history.txt
+  595  history >> history.txt
